@@ -1,7 +1,27 @@
 {
   "dependencies": {
     "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.7",
     "express": "^4.17.3",
-    "mongoose": "^6.3.0"
-  }
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "kronicle",
+  "description": "Thanks for downloading this template!",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arpit-Sahu/Kronicle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arpit-Sahu/Kronicle/issues"
+  },
+  "homepage": "https://github.com/Arpit-Sahu/Kronicle#readme"
 }

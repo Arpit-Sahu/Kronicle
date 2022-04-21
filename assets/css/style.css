@@ -77,7 +77,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #ffff;
+  /* background: #ffff; */
+  background: rgb(34,97,153);
+background: radial-gradient(circle, rgba(34,97,153,1) 0%, rgba(18,70,115,1) 100%);
  
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -140,15 +142,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #eb5d1e;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #eb5d1e;
-  color: #fff;
+  background: #EDE6DB;
+  color: #000;
   padding: 10px 25px;
   margin-left: 30px;
   border-radius: 50px;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #ee7843;
+  background: #6E75D0;
 }
 .navbar .dropdown ul {
   display: block;
