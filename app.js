@@ -97,8 +97,9 @@ app.post('/adjregPost',async(req,res)=>{
     })
 })
 
-app.post('/contactdata',async(req,res)=>{
+app.post('/contactData',async(req,res)=>{
     console.log(req.body);
+    res.send("sj")
 })
 
 
