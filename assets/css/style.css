@@ -97,7 +97,7 @@ background: radial-gradient(circle, rgba(34,97,153,1) 0%, rgba(18,70,115,1) 100%
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  /* max-height: 40px; */
 }
 
 #main {
@@ -129,7 +129,7 @@ background: radial-gradient(circle, rgba(34,97,153,1) 0%, rgba(18,70,115,1) 100%
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #4e4039;
+  color: #EDE6DB;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -139,9 +139,10 @@ background: radial-gradient(circle, rgba(34,97,153,1) 0%, rgba(18,70,115,1) 100%
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #eb5d1e;
+  color: #4df4fa;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
+  /* background: #EDE6DB; */
   background: #EDE6DB;
   color: #000;
   padding: 10px 25px;
@@ -149,8 +150,8 @@ background: radial-gradient(circle, rgba(34,97,153,1) 0%, rgba(18,70,115,1) 100%
   border-radius: 50px;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #6E75D0;
+  color: #000;
+  background: #4df4fa;
 }
 .navbar .dropdown ul {
   display: block;
@@ -331,7 +332,8 @@ background: radial-gradient(circle, rgba(34,97,153,1) 0%, rgba(18,70,115,1) 100%
   background: #eb5d1e;
 }
 #hero .btn-get-started:hover {
-  background: #ef7f4d;
+  background: #EDE6DB;
+  color: #000;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;

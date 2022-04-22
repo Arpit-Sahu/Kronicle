@@ -59,7 +59,7 @@ app.post('/instregPost',async(req,res)=>{
 })
 
 app.post('/invsubPost',async(req,res)=>{
-    // console.log(req.body);
+    console.log(req.body);
     Invsub.create({
     applying: [req.body.checks],
     name_of_adjudicator: req.body.NOA,
