@@ -52,6 +52,8 @@ app.post('/instregPost',async(req,res)=>{
     name_of_inst_rep:          NOIR,
     contact_number_of_inst_rep:CNOIR,
     email_of_inst_rep:         EAOIR 
+    }).then((result)=>{
+        res.render("regisSuccess")
     })
     // res.render("SubmissionSuccessful")   
 })
@@ -67,6 +69,8 @@ app.post('/invsubPost',async(req,res)=>{
     top10_adj_cred:req.body.T10AC,
     top10_debate_cred:req.body.T10DC
 
+    }).then((result)=>{
+        res.render("regisSuccess")
     })
 })
 
@@ -76,6 +80,8 @@ app.post('/noninstPost',async(req,res)=>{
     name_of_team_rep:req.body.NOTR,
     email_of_team_rep:req.body.EAOTR,
     contact_of_team_rep:req.body.CNOTR,
+    }).then((result)=>{
+        res.render("regisSuccess")
     })
 
 })
@@ -86,6 +92,8 @@ app.post('/adjregPost',async(req,res)=>{
     name_of_inst:    req.body.NOI,
     email_addr:      req.body.Emailaddr ,
     contact_number:  req.body.CON, 
+    }).then((result)=>{
+        res.render("regisSuccess")
     })
 })
 
