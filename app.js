@@ -34,7 +34,9 @@ app.get('/adjreg', async(req,res)=>{
 })
 
 const InstReg=require('./models/InstReg')
-
+const Invsub= require("./models/InvSub")
+const NonInst =require("./models/NonInst")
+const AdjReg = require("./models/Adjreg")
 app.post('/instregPost',async(req,res)=>{
     const NOI= req.body.NOI;
     const NOTSR = req.body.NOTSR;
@@ -54,6 +56,38 @@ app.post('/instregPost',async(req,res)=>{
     // res.render("SubmissionSuccessful")   
 })
 
+app.post('/invsubPost',async(req,res)=>{
+    // console.log(req.body);
+    Invsub.create({
+    applying: [req.body.checks],
+    name_of_adjudicator: req.body.NOA,
+    name_of_inst: req.body.NOI,
+    email:req.body.Email,
+    contact:req.body.Contact,
+    top10_adj_cred:req.body.T10AC,
+    top10_debate_cred:req.body.T10DC
+
+    })
+})
+
+app.post('/noninstPost',async(req,res)=>{
+    NonInst.create({
+    team_name:req.body.team,
+    name_of_team_rep:req.body.NOTR,
+    email_of_team_rep:req.body.EAOTR,
+    contact_of_team_rep:req.body.CNOTR,
+    })
+
+})
+
+app.post('/adjregPost',async(req,res)=>{
+    AdjReg.create({
+    number_of_adjud: req.body.NOA,
+    name_of_inst:    req.body.NOI,
+    email_addr:      req.body.Emailaddr ,
+    contact_number:  req.body.CON, 
+    })
+})
 
 
 app.use((error, req, res, next) => {
