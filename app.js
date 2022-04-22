@@ -37,6 +37,7 @@ const InstReg=require('./models/InstReg')
 const Invsub= require("./models/InvSub")
 const NonInst =require("./models/NonInst")
 const AdjReg = require("./models/Adjreg")
+const Contact = require("./models/contact")
 app.post('/instregPost',async(req,res)=>{
     const NOI= req.body.NOI;
     const NOTSR = req.body.NOTSR;
@@ -98,8 +99,14 @@ app.post('/adjregPost',async(req,res)=>{
 })
 
 app.post('/contactData',async(req,res)=>{
-    console.log(req.body);
-    res.send("sj")
+    Contact.create({
+        name: req.body.name,
+    email:    req.body.email,
+    subject:      req.body.subject ,
+    msg:  req.body.message,
+    }).then((r)=>{
+        res.render("msg_success")
+    })
 })
 
 
