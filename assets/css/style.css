@@ -1224,4 +1224,40 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
     text-align-last: center;
     padding: 3px 0;
   }
+  /* .bi-arrow-up-short::before{
+    display: none;
+  } */
+
+  /* #header{
+    max-width: 59% !important;
+  } */
+
+  /* .kiitksac{
+    width: 5% !important;
+    text-align: start;
+    display: none !important;
+  } */
+}
+
+@media (max-width: 400px) {
+  #footer .copyright, #footer .credits {
+    float: none;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding: 3px 0;
+    display: none;
+  }
+  /* .bi-arrow-up-short::before{
+    display: none;
+  } */
+
+  /* #header{
+    max-width: 55% !important;
+  } */
+  /* .kiitksac{
+   width: 5% !important;
+   text-align: start;
+   display: none !important;
+  } */
+  
 }

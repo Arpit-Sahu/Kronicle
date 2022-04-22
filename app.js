@@ -97,6 +97,10 @@ app.post('/adjregPost',async(req,res)=>{
     })
 })
 
+app.post('/contactdata',async(req,res)=>{
+    console.log(req.body);
+})
+
 
 app.use((error, req, res, next) => {
     console.log(error);
