@@ -36,6 +36,10 @@ app.get('/adjreg', async(req,res)=>{
     res.render("AdjReg")
 })
 
+app.get('/register', async(req,res) => {
+    res.render("register");
+})
+
 const InstReg=require('./models/InstReg')
 const Invsub= require("./models/InvSub")
 const NonInst =require("./models/NonInst")
