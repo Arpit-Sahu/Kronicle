@@ -1,0 +1,295 @@
+#about-first{
+    overflow: hidden;
+}
+#about-first .about-back {
+    max-height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (min-width: 769px){
+    #about-first .about-back img {
+        position: relative;
+        top: -18vh;
+    }
+}
+#about-first .about-back img {
+    width: 100%;
+    height: auto;
+}
+#about-first .about-back .layer {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+#about-first .about-back h1 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    font-size: 56px;
+    /* background-color:rgba(255,255,255, 0.3) !important; */
+    color:#bab86c !important;
+    /* border-radius: 0.8rem;
+    margin-left: 41%; */
+}
+@media screen and (max-width: 768px){
+    #about-first .about-back h1 {
+        top: 0;
+        margin-top: 25%;
+        height: auto;
+        font-size: 28px;
+    }
+}
+
+#about-second{
+    text-align: center;
+    padding: 5vh 5vw 10vh;
+}
+#about-second .first {
+    font-weight: 900;
+    display: block;
+    font-size: 21px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+#about-second .second {
+    padding: 0 5vmin;
+    border-bottom: 2px solid #ddd;
+    letter-spacing: 2px;
+    line-height: 1em;
+    display: block;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto 8vh;
+    width: max-content;
+    padding-bottom: 10px;
+}
+#about-second hr{
+    margin-top: -9vh !important;
+    border-top: 10px solid #DF624E !important;
+    width: 50px !important;
+}
+#about-second .third {
+    text-align: justify;
+    color: grey !important;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 8.5vmin;
+}
+@media screen and (max-width: 768px){
+    #about-second{
+        padding: 5vh 5vw 5vh;
+    }
+    #about-second .first{
+        font-size: 20px;
+    }
+    #about-second .second{
+        font-size: 35px;
+        width: 100%;
+    }
+    #about-second .third{
+        padding: 0;
+    }
+}
+
+#about-third h1{
+    width: max-content;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+#about-third{
+    /*padding: 10vh 2vw 0;*/
+    padding: 10vmin 10vmin 0;
+    display: inline-block;
+}
+#about-third  div > p{
+    color: #DF624E;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+#about-third h2{
+    width: max-content;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #bab86c;
+}
+#about-third hr{
+    margin-top: -55px !important;
+    margin-bottom: 20px !important;
+    border-top: 10px solid #DF624E !important;
+    width: 50px !important;
+}
+#about-third img{
+    width: 30%;
+    display: block;
+    margin: 0 auto 2.5vh;
+}
+@media screen and (max-width: 768px){
+    #about-third {
+        padding: 5vh 5vw 5vh;
+    }
+    #about-third div.col-xs-12{
+        padding: 0;
+    }
+}
+
+#about-fourth{
+    padding: 10vmin 10vmin 0;
+}
+#about-fourth h1{
+    width: max-content;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+#about-fourth hr{
+    margin-top: -55px !important;
+    margin-bottom: 20px !important;
+    border-top: 10px solid #DF624E !important;
+    width: 50px !important;
+}
+#about-fourth > span{
+    color: #DF624E !important;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0 5% 30px;
+}
+@media screen and (max-width: 768px){
+    #about-fourth{
+        padding: 5vh 5vw 5vh;
+    }
+    #about-fourth > span{
+        margin: 0;
+    }
+}
+
+#about-fifth{
+    padding: 10vmin 10vmin 0;
+}
+#about-fifth h1{
+    width: max-content;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+#about-fifth hr{
+    margin-top: -55px !important;
+    margin-bottom: 20px !important;
+    border-top: 10px solid #DF624E !important;
+    width: 50px !important;
+}
+#about-fifth > span{
+    color: #DF624E!important;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0 5% 30px;
+}
+#about-sixth{
+    padding: 10vmin 10vmin 0;
+}
+#about-sixth h1{
+    font-family: serif;
+    width: max-content;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+#about-sixth hr{
+    margin-top: -55px !important;
+    margin-bottom: 20px !important;
+    border-top: 10px solid #DF624E !important;
+    width: 50px !important;
+}
+#about-sixth > span{
+    color: grey !important;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0 5% 30px;
+}
+@media screen and (max-width: 768px){
+    #about-fourth{
+        margin-top: 15% !important;
+    }
+    #about-sixth{
+        padding: 5vh 5vw 5vh;
+    }
+    #about-sixth > span{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    #about-fifth{
+        padding: 5vh 5vw 5vh;
+    }
+    #about-fifth > span{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    #about-seventh{
+        padding: 5vh 5vw 5vh;
+    }
+    #about-seventh > span{
+        margin: 0;
+    }
+}
+
+#about-seventh{
+    padding: 10vmin 10vmin 0;
+}
+#about-seventh h1{
+    width: max-content;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+#about-seventh hr{
+    margin-top: -55px !important;
+    margin-bottom: 20px !important;
+    border-top: 10px solid #DF624E !important;
+    width: 50px !important;
+}
+#about-seventh > span{
+    color: grey !important;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0 1% 30px;
+
+}
+hr{
+    background-color: #DF624E !important;
+    opacity: 1;
+}
