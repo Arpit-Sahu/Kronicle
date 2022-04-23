@@ -19,6 +19,9 @@ app.use(express.static(path.join(__dirname, 'assets')));
 app.get('/',async (req,res)=>{
   res.render("index")
 })
+app.get('/about',async(req,res)=>{
+    res.render("about")
+})
 
 app.get('/instreg', async(req,res)=>{
     res.render("InstReg")
