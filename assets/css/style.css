@@ -1,13 +1,4 @@
-/**
-* Template Name: Ninestars - v4.7.0
-* Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -1126,7 +1117,7 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%) 
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family:sans-serif;
   color: #5c5c5c;
 }
 #footer .footer-top h4 {
@@ -1213,6 +1204,9 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%) 
 background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
 }
 
+/* .phone{
+  font-family: Arial, Helvetica, sans-serif !important;
+} */
 
 
 /* CUSTOM CSS MORRIS WORM ENDS */
@@ -1237,6 +1231,10 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
     text-align: start;
     display: none !important;
   } */
+
+  #footer{
+    text-align: center !important;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1245,7 +1243,7 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
     -moz-text-align-last: center;
     text-align-last: center;
     padding: 3px 0;
-    display: none;
+    /* display: none; */
   }
   /* .bi-arrow-up-short::before{
     display: none;
@@ -1259,5 +1257,9 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
    text-align: start;
    display: none !important;
   } */
+
+  #footer{
+    text-align: center !important;
+  }
   
 }
