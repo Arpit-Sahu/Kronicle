@@ -1211,6 +1211,16 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
 
 /* CUSTOM CSS MORRIS WORM ENDS */
 
+
+@media (min-width: 1000px){
+  .regbtn{
+    display: none !important;
+  }
+}
+
+
+
+
 @media (max-width: 575px) {
   #footer .copyright, #footer .credits {
     float: none;
@@ -1235,6 +1245,15 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
   #footer{
     text-align: center !important;
   }
+  .datetime{
+    text-align: center !important;
+  }
+  .debateimg{
+    margin-bottom: 0% !important;
+  }
+  /* .regbtn{
+    text-align: center !important;
+  } */
 }
 
 @media (max-width: 400px) {
@@ -1261,5 +1280,12 @@ background: radial-gradient(circle, rgba(17,42,85,1) 0%, rgba(19,30,49,1) 100%);
   #footer{
     text-align: center !important;
   }
+
+  .datetime{
+    text-align: center !important;
+  }
+  /* .regbtn{
+    justify-content: center !important;
+  } */
   
 }
